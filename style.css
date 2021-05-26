@@ -2,8 +2,6 @@ body
     {
       font-family: Roboto;
     }
-
-
 .logo
   {
     font: PT Serif;
@@ -11,14 +9,12 @@ body
   }
 .menu__item
   {
-    font-family: Roboto;
     font-size: 18px;
     line-height: 22px;
   }
-
 .main-content__title
   {
-    font-family: PT Serif;
+    font: PT Serif;
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
@@ -26,10 +22,8 @@ body
     display: flex;
     align-items: center;
   }
-
   .main-content__subtitle
   {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -38,7 +32,6 @@ body
 
 .main-content__button
   {
-    font-family: Roboto;
     font-style: normal;
     font-size: 12px;
     Width: 270,75px;
