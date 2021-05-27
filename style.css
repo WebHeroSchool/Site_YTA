@@ -1,11 +1,39 @@
-body {
-   font-family: Helvetica
-      }
-p
+body
+    {
+      font-family: Roboto;
+    }
+.logo
   {
-    font-family: arial;
+    font: PT Serif;
+    font-size: 24px;
   }
-.title
+.menu__item
   {
-    font-family: Roboto;
+    font-size: 18px;
+    line-height: 22px;
+  }
+.main-content__title
+  {
+    font: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+  }
+  .main-content__subtitle
+  {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+.main-content__button
+  {
+    font-style: normal;
+    font-size: 12px;
+    Width: 270,75px;
+    Height:57px;
+    background: #0056EC;
   }
