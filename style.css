@@ -1,36 +1,78 @@
 body
     {
-      font-family: Roboto;
+      font-family: roboto;
+      border: dashed 1px red;
+      /*margin: 0;*/
     }
+.wrapper {
+  margin:auto;
+  width: 80%;
+  border: dashed 1px;
+}
+.logo, .menu
+{
+ /*margin: 63%;*/
+ display: inline-block;
+ /*align-items: center;*/
+ padding: 40px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header, .main-section {
+      border: dashed 1px red;
+   }
 .logo
   {
     font: PT Serif;
     font-size: 24px;
+    border: dashed 1px red;
   }
-.menu__item
+.menu
   {
     font-size: 18px;
     line-height: 22px;
-  }
-.main-content__title
+}
+.menu__item
+{
+ padding: 0 13px;
+ border: dashed 1px red;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+.menu__item:last-child
+{
+ padding: 0;
+}
+.main-section
+{
+  border: dashed 1px red;
+  display: flex;
+  align-items: center;
+}
+.main-content
   {
+    border: dashed 1px red;
     font: PT Serif;
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
     line-height: 87px;
-    display: flex;
-    align-items: center;
+    /*display: flex;
+    align-items: center;*/
   }
   .main-content__subtitle
   {
-    font-style: normal;
+  /*  border: dashed 1px red;
+    font-style: normal;*/
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
   }
 .main-content__button
   {
+    border: dashed 1px red;
     font-style: normal;
     font-size: 12px;
     Width: 270,75px;
