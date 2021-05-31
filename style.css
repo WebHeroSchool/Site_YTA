@@ -1,81 +1,68 @@
 body
-    {
-      font-family: roboto;
-      border: dashed 1px red;
-      /*margin: 0;*/
-    }
-.wrapper {
-  margin:auto;
-  width: 80%;
-  border: dashed 1px;
-}
+ {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    margin: 0px;
+  }
+.wrapper
+ {
+   margin:auto;
+   width: 80%;
+  }
 .logo, .menu
-{
- /*margin: 63%;*/
- display: inline-block;
- /*align-items: center;*/
- padding: 40px 0;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-.header, .main-section {
-      border: dashed 1px red;
-   }
+ {
+   display: inline-block;
+   padding: 40px 0;
+ }
+/*.header
+ {
+   display: flex;
+   justify-content: space-between;
+   }*/
 .logo
-  {
-    font: PT Serif;
-    font-size: 24px;
-    border: dashed 1px red;
-  }
+ {
+   font: PT Serif;
+   font-size: 24px;
+ }
 .menu
-  {
-    font-size: 18px;
-    line-height: 22px;
-}
+ {
+   font-size: 18px;
+   line-height: 22px;
+ }
 .menu__item
-{
- padding: 0 13px;
- border: dashed 1px red;
-  /*display: flex;
-  justify-content: space-between;*/
-}
+ {
+  padding: 0 13px;
+  justify-content: space-between;
+ }
 .menu__item:last-child
-{
- padding: 0;
-}
+ {
+   padding: 0;
+ }
 .main-section
-{
-  border: dashed 1px red;
-  display: flex;
-  align-items: center;
-}
+ {
+   display: flex;
+   align-items: center;
+ }
 .main-content
-  {
-    border: dashed 1px red;
-    font: PT Serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 66px;
-    line-height: 87px;
-    /*display: flex;
-    align-items: center;*/
-  }
-  .main-content__subtitle
-  {
-  /*  border: dashed 1px red;
-    font-style: normal;*/
+ {
+   font: PT Serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 66px;
+   line-height: 87px;
+ }
+.main-content__subtitle
+ {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
   }
 .main-content__button
-  {
-    border: dashed 1px red;
-    font-style: normal;
-    font-size: 12px;
-    Width: 270,75px;
-    Height:57px;
-    background: #0056EC;
-  }
+ {
+   font-style: normal;
+   font-size: 12px;
+   width: 271px;
+   height: 57px;
+   background: #0056EC;
+ }
