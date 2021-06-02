@@ -1,39 +1,56 @@
-body
-    {
-      font-family: Roboto;
-    }
-.logo
-  {
-    font: PT Serif;
-    font-size: 24px;
+body {
+  display: flex;
+  align-items: center;
+  font-family: 'roboto';
+  margin: 0px;
+}
+.wrapper {
+   margin:auto;
+   width: 80%;
+ }
+.logo, .menu {
+  display: inline-block;
+  padding: 40px 0;
+ }
+.header {
+  display: flex;
+  justify-content: space-between;
   }
-.menu__item
-  {
-    font-size: 18px;
-    line-height: 22px;
+.logo {
+  font: PT Serif;
+  font-size: 24px;
+ }
+.menu {
+  font-size: 18px;
+  line-height: 22px;
+ }
+.menu__item {
+  padding: 0 13px;
+  justify-content: space-between;
+ }
+.menu__item:last-child {
+  padding: 0;
+ }
+.main-section {
+  display: flex;
+  align-items: center;
+ }
+.main-content {
+  font: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+ }
+.main-content__subtitle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
   }
-.main-content__title
-  {
-    font: PT Serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 66px;
-    line-height: 87px;
-    display: flex;
-    align-items: center;
-  }
-  .main-content__subtitle
-  {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-  }
-.main-content__button
-  {
-    font-style: normal;
-    font-size: 12px;
-    Width: 270,75px;
-    Height:57px;
-    background: #0056EC;
-  }
+.main-content__button {
+  font-style: normal;
+  font-size: 12px;
+  width: 271px;
+  height: 57px;
+  background: #0056EC;
+ }
