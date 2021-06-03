@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   }
 .logo {
-  font: PT Serif;
+  font: 'pt_serifbold';
   font-size: 24px;
  }
 .menu {
@@ -36,7 +36,7 @@ body {
   align-items: center;
  }
 .main-content {
-  font: PT Serif;
+  font: 'pt_serifbold';
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
