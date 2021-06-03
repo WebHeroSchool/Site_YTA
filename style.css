@@ -18,7 +18,6 @@ body {
 }
 .logo {
   position: relative;
-  padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifregular', arial, helvetica, sans-serif;
 }
@@ -33,8 +32,8 @@ body {
   opacity: .7;
 }
 .logo__circle_color_dark-blue {
-   background: #0056EC;
- }
+  background: #0056EC;
+}
 .logo__circle_color_blue {
   left: 8px;
   top: 64px;
@@ -49,9 +48,6 @@ body {
 }
 .menu__item:last-child {
  padding: 0;
-}
-.main-section {
-  align-items: center;
 }
 .main-section {
   align-items: center;
