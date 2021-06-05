@@ -69,6 +69,15 @@ body {
 .menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
 }
+.menu__item:hover, .menu__item_active:hover {
+  outline: none;
+  position: relative;
+  font-size: 18px;
+  line-height: 1;
+  color: #2707ec;
+  display: inline-block;
+  text-transform: uppercase;
+}
 .main-section {
   align-items: center;
 }
