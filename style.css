@@ -1,56 +1,93 @@
 body {
   display: flex;
   align-items: center;
-  font-family: 'roboto';
   margin: 0px;
 }
 .wrapper {
-   margin:auto;
-   width: 80%;
- }
-.logo, .menu {
-  display: inline-block;
-  padding: 40px 0;
- }
+  margin:auto;
+  width: 80%;
+}
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  }
+}
+.logo, .menu {
+  padding: 40px 0;
+  display: inline-block;
+}
 .logo {
-  font: 'pt_serifbold';
-  font-size: 24px;
- }
+  position: relative;
+  padding-left: 44px;
+  font: bold 24px/31px 'pt_serifregular', arial, helvetica, sans-serif;
+}
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+.logo__circle_color_blue {
+  left: 8px;
+  top: 64px;
+  background: #c8dbfb;
+}
 .menu {
-  font-size: 18px;
-  line-height: 22px;
- }
-.menu__item {
-  padding: 0 13px;
-  justify-content: space-between;
- }
-.menu__item:last-child {
-  padding: 0;
- }
-.main-section {
   display: flex;
   align-items: center;
- }
-.main-content {
-  font: 'pt_serifbold';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 66px;
-  line-height: 87px;
+  justify-content: space-between;
+  font: bold 18px/22px 'roboto', arial, helvetica, sans-serif;
+}
+.menu__item {
+  position: relative;
+  margin-right: 26px;
+  color: #000;
+  text-decoration: none;
+}
+.menu__item_active::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content:'';
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .8s, width .8s;
+}
+.menu__item:hover {
+  transition: opacity: .5s;
+}
+.menu__item:last-child {
+ padding: 0;
+}
+.menu__item:hover::after, .menu__item_active::after {
+  opacity: 1;
+}
+.menu__item:hover, .menu__item_active:hover {
+  outline: none;
+  position: relative;
+  color: #2707ec;
+  display: inline-block;
+}
+.main-section {
+  align-items: center;
+}
+.main-content__title {
+  font: bold 66px/87px 'pt_serifregular', arial, helvetica, sans-serif;
  }
 .main-content__subtitle {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  }
+  font: 22px 'roboto', arial, helvetica, sans-serif;
+}
 .main-content__button {
-  font-style: normal;
-  font-size: 12px;
+  font: 18px 'roboto', arial, helvetica, sans-serif;
   width: 271px;
   height: 57px;
-  background: #0056EC;
- }
+}
