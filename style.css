@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font: bold 18px/22px 'roboto';
+  font: bold 18px/22px 'roboto', arial, helvetica, sans-serif;
 }
 .menu__item {
   position: relative;
@@ -81,13 +81,13 @@ body {
   align-items: center;
 }
 .main-content__title {
-  font: bold 66px/87px 'pt_serifregular';
+  font: bold 66px/87px 'pt_serifregular', arial, helvetica, sans-serif;
 }
 .main-content__subtitle {
-  font: 22px 'roboto';
+  font: 22px 'roboto', arial, helvetica, sans-serif;
 }
 .main-content__button {
-  font: 18px 'roboto';
+  font: 18px 'roboto', arial, helvetica, sans-serif;
   width: 271px;
   height: 57px;
 }
